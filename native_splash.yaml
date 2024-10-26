@@ -1,0 +1,19 @@
+flutter_native_splash:
+  android: true
+  ios: true
+  web: true
+  color: "#D1E9F6"
+  image: "asset/png/logo1.1.png"
+  branding: "asset/png/brand1.1.png"
+
+  android_12:
+    color: "#D1E9F6"
+    image: "asset/png/logo1.1.png"
+    branding: "asset/png/brand1.1.png"
+
+#* command to add the native splash 
+#?  dart run flutter_native_splash:create --path=native_splash.yaml 
+
+#* command to remove the native splash
+#? flutter pub run flutter_native_splash:remove
+
